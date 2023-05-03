@@ -1,6 +1,6 @@
 #! /bin/bash
 
-trunk build --release --public-url yew-app/
+trunk build --release --public-url yew_app/
 
 cp -r ./dist ./docs
 
