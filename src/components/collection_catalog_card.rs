@@ -10,7 +10,7 @@ pub struct CollectionCatalogCardProps {
 #[function_component(CollectionCatalogCard)]
 pub fn collection_card_props(props: &CollectionCatalogCardProps) -> Html {
     let CollectionCatalogCardProps { id, name, thumbnail_image } = props;
-    let href = format!("/collection/{}", id.clone());
+    let href = format!("/yew_app/collection/{}", id.clone());
     html! {
         <div style="
         display: grid; 
