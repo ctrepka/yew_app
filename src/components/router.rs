@@ -9,7 +9,7 @@ use crate::components::collection_details::{ CollectionDetails, CollectionProps 
 enum Route {
     #[at("/")]
     Home,
-    #[at("/yew_app/collection/:id")]
+    #[at("/collection/:id")]
     Collection { id: String },
     #[not_found]
     #[at("/404")]
