@@ -2,7 +2,7 @@
 
 trunk build --release --public-url yew_app/
 
-cp -r ./dist/ ./docs/
+cp -r ./dist/ ./docs
 
 touch ./docs/.nojekyll
 
